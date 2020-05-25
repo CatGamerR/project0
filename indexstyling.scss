@@ -1,0 +1,45 @@
+$gacolor: green;
+$smcolor: blue;
+$shazamcolor: red;
+$sandcolor: gold;
+$cagecolor: brown;
+#greenarrow{
+    color: $gacolor;
+}
+#superman{
+    color: $smcolor;
+}
+#shazam{
+    color: $shazamcolor;
+}
+#sandman{
+    color: $sandcolor;
+}
+#cage{
+    color: $cagecolor;
+}
+%comiclink{
+    font-family: sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+}
+.arrowlink{
+    @extend %comiclink;
+    color: green;
+}
+.sandmanlink{
+    @extend %comiclink;
+    color: gold;
+}
+.superlink{
+    @extend %comiclink;
+    color: blue;
+}
+.shazamlink{
+    @extend %comiclink;
+    color: red;
+}
+.cagelink{
+    @extend %comiclink;
+    color: brown;
+}

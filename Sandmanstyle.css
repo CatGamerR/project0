@@ -1,0 +1,83 @@
+@media(min-width: 500px){
+body{
+    background-color: gold;
+  }
+.header{
+font-weight: bold;
+color: purple;
+text-align: left;
+font-family: Arial, sans-serif;
+font-size: 18px;
+}
+#bginfo{
+  font-size: 16px;
+  color: purple;
+}
+#colvol{
+  font-size: 16px;
+  color: purple;
+}
+#likes{
+  font-size: 16px;
+  color: purple;
+}
+#dislikes{
+  font-size: 16px;
+  color: purple;
+}
+#recommend{
+  font-size: 16px;
+  color: purple;
+}
+h3::before{
+content: "-"
+}
+h3::after{
+  content: "-"
+}
+a:link{
+  color: purple
+}
+}
+@media(max-width: 499px){
+  body{
+      background-color: yellow;
+    }
+  .header{
+  font-weight: bold;
+  color: purple;
+  text-align: left;
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  }
+  #bginfo{
+    font-size: 12px;
+    color: purple;
+  }
+  #colvol{
+    font-size: 12px;
+    color: purple;
+  }
+  #likes{
+    font-size: 12px;
+    color: purple;
+  }
+  #dislikes{
+    font-size: 12px;
+    color: purple;
+  }
+  #recommend{
+    font-size: 12px;
+    color: purple;
+  }
+  h3::before{
+  content: "-"
+  }
+  h3::after{
+    content: "-"
+  }
+  a:link{
+    color: purple
+  }
+
+}

@@ -1,0 +1,47 @@
+#greenarrow {
+  color: green;
+}
+
+#superman {
+  color: blue;
+}
+
+#shazam {
+  color: red;
+}
+
+#sandman {
+  color: gold;
+}
+
+#cage {
+  color: brown;
+}
+
+.cagelink, .shazamlink, .superlink, .sandmanlink, .arrowlink {
+  font-family: sans-serif;
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.arrowlink {
+  color: green;
+}
+
+.sandmanlink {
+  color: gold;
+}
+
+.superlink {
+  color: blue;
+}
+
+.shazamlink {
+  color: red;
+}
+
+.cagelink {
+  color: brown;
+}
+
+/*# sourceMappingURL=indexstyling.css.map */
